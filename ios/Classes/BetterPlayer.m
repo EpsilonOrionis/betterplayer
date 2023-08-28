@@ -230,7 +230,7 @@ static inline CGFloat radiansToDegrees(CGFloat radians) {
     }
 
     // Hopefully this will fix
-    //item.preferredForwardBufferDuration = 3;
+    item.preferredForwardBufferDuration = 3;
 
     return [self setDataSourcePlayerItem:item withKey:key];
 }
